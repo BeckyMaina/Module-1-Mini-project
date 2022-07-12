@@ -1,3 +1,112 @@
-.box{
-    color: red;
-} 
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: pink;
+    color: beige;
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid chocolate;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+header, footer {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: brown;
+}
+
+main {
+    padding: 60px 0;
+}
+
+h1, h2 {
+    margin: 20px;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    height: 350px;
+    width: 350px;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid orange;
+    background-color: olive;
+}
+
+li {
+    padding: 0 20px;
+    display: inline;
+    text-decoration: none;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid orange;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+    
+input, textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid green;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+    
+button {
+    height: 40px;
+    width: 120px;
+    background-color: green;
+    color: beige;
+}
+
+footer {
+    position: absolute;
+    border-bottom: 10px solid green;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: beige;
+}
+
+/* Class Selectors */
+.text-center {
+    text-align: center;
+}
+  
+.text-right {
+    text-align: right;
+}
